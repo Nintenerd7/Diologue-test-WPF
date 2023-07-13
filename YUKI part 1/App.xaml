@@ -1,0 +1,14 @@
+﻿<Application x:Class="YUKI_part_1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:YUKI_part_1"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <BitmapImage x:Key="Yuki" UriSource="art\Yuki.PNG"></BitmapImage>
+
+            <BitmapImage x:Key="Shido" UriSource="art\Shido-.PNG"></BitmapImage>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
